@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle AnsibleVault",
+        "command": "ansible-vault:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Ansible Vault",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ansible-vault:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
