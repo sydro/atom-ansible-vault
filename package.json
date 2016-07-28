@@ -2,7 +2,7 @@
   "name": "ansible-vault",
   "main": "./lib/ansible-vault",
   "version": "0.0.0",
-  "description": "Package for create and modify ansible-vault file",
+  "description": "Atom package to create and modify ansible-vault file",
   "keywords": [
   ],
   "activationCommands": {
