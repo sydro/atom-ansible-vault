@@ -1,14 +1,18 @@
 {
   "name": "ansible-vault",
   "main": "./lib/ansible-vault",
-  "version": "0.0.0",
-  "description": "Atom package to create and modify ansible-vault file",
+  "version": "0.1.0",
+  "description": "Atom Package to decrypt and encrypt ansible-vault file.",
   "keywords": [
+    "ansible",
+    "vault",
+    "encrypt",
+    "decrypt"
   ],
   "activationCommands": {
     "atom-workspace": "ansible-vault:toggle"
   },
-  "repository": "https://github.com/atom/ansible-vault",
+  "repository": "https://github.com/sydro/atom-ansible-vault",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

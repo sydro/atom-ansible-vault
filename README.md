@@ -1,5 +1,9 @@
 # Atom ansible-vault package
 
-Atom Package to create and modify ansible-vault file.
+Atom Package to decrypt and encrypt ansible-vault file.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Press <kbd>ctrl-alt-0</kbd> to encrypt and decrypt file.
+
+![Screeshot password](images/screenshot-password.png)
+
+![Screeshot encryption ok](images/screenshot-encryption.png)

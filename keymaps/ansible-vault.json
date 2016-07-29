@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "ansible-vault:toggle"
+    "ctrl-alt-0": "ansible-vault:toggle"
   }
 }
