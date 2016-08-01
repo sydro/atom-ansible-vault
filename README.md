@@ -4,6 +4,6 @@ Atom Package to decrypt and encrypt ansible-vault file.
 
 Press <kbd>ctrl-alt-0</kbd> to encrypt and decrypt file.
 
-![Screeshot password](images/screenshot-password.png)
+![Screeshot password](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-password.png)
 
-![Screeshot encryption ok](images/screenshot-encryption.png)
+![Screeshot encryption ok](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-encryption.png)
