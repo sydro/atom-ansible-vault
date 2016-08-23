@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 from ansible.parsing.vault import VaultEditor
 from ansible.parsing.vault import VaultFile
 from sys import argv

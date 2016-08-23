@@ -1,3 +1,5 @@
+## 0.2.4 - FIX: changed the shebang lib/bin/vault_wrapper.py
+
 ## 0.2.3 - FIX: error on editor.getPath() with some opened tab
 
 ## 0.2.2 - Complete implementation
