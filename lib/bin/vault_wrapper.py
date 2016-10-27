@@ -9,8 +9,9 @@ import subprocess
 ### 2. password
 ### 3. action
 ### 4. ansible-vault command path
+### 5. vault password file
 
-try:
+def library_mode():
     from ansible.parsing.vault import VaultEditor
     from ansible.parsing.vault import VaultFile
 
@@ -31,21 +32,35 @@ try:
     except Exception, e:
         print >> sys.stderr, "Exception: %s" % str(e)
         exit(1)
-except ImportError:
-    import uuid
-    random_name = uuid.uuid4().hex
-    filename = "/tmp/" + random_name + ".vault"
-    temp_file = open(filename, "w+")
-    temp_file.write(argv[2])
-    temp_file.close()
+
+def binary_mode(vault_password_filename):
+    filename = ""
+    if vault_password_filename == "":
+        import uuid
+        random_name = uuid.uuid4().hex
+        filename = "/tmp/" + random_name + ".vault"
+        temp_file = open(filename, "w+")
+        temp_file.write(argv[2])
+        temp_file.close()
+    else:
+        filename = vault_password_filename
     cmd = [argv[4], argv[3], "--vault-password-file=" + filename, argv[1] ]
     p1 = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if p1.communicate()[1] != "":
         print >> sys.stderr, "Exception: %s" % str(p1.communicate()[1])
         exit(1)
     try:
-        os.remove(filename)
+        if vault_password_filename == "":
+            os.remove(filename)
     except OSError:
         pass
     print argv[3] + " " + argv[1] + ": OK"
     exit(0)
+
+try:
+    if argv[5] == "" and argv[2] != "":
+        library_mode()
+    else:
+        binary_mode(argv[5])
+except ImportError:
+    binary_mode()

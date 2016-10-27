@@ -1,3 +1,5 @@
+## 0.3.0 - ADD: issue #3 - Add option to use vault password file
+
 ## 0.2.6 - FIX: issue #4 - ansible-vault binary path
 
 ## 0.2.5 - FIX: backspace disabled in input password box
