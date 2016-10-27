@@ -11,7 +11,7 @@ import subprocess
 ### 4. ansible-vault command path
 
 try:
-    from ansible.parsing.vault1 import VaultEditor
+    from ansible.parsing.vault import VaultEditor
     from ansible.parsing.vault import VaultFile
 
     vaultObject = VaultEditor(argv[2])
