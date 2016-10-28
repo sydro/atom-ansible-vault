@@ -33,7 +33,7 @@ def library_mode():
         print >> sys.stderr, "Exception: %s" % str(e)
         exit(1)
 
-def binary_mode(vault_password_filename):
+def binary_mode(vault_password_filename=""):
     filename = ""
     if vault_password_filename == "":
         import uuid
@@ -46,8 +46,9 @@ def binary_mode(vault_password_filename):
         filename = vault_password_filename
     cmd = [argv[4], argv[3], "--vault-password-file=" + filename, argv[1] ]
     p1 = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    if p1.communicate()[1] != "":
-        print >> sys.stderr, "Exception: %s" % str(p1.communicate()[1])
+    errors = p1.communicate()[1]
+    if errors != "":
+        print >> sys.stderr, "Exception: %s" % str(errors)
         exit(1)
     try:
         if vault_password_filename == "":
