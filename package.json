@@ -9,9 +9,6 @@
     "encrypt",
     "decrypt"
   ],
-  "activationCommands": {
-    "atom-workspace": "ansible-vault:toggle"
-  },
   "repository": "https://github.com/sydro/atom-ansible-vault",
   "license": "MIT",
   "engines": {

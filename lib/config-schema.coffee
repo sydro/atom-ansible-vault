@@ -11,3 +11,7 @@ module.exports =
       title: 'Vault password file path'
       type: 'string'
       default: '/tmp/pass.txt'
+    vault_automatic_de_and_encrypt:
+      title: 'Enable automatic de- and encrypt'
+      type: 'boolean'
+      default: false
