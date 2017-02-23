@@ -8,11 +8,12 @@ Press <kbd>ctrl-alt-0</kbd> to encrypt and decrypt file.
 
 * ansible-vault binary path
 * global vault password file path (+flag dis/enabled)
+* automatic de- and encryption files
 
 **NOTE**: to use vault password file, you must set ansible-vault binary path.
 
 
-## Screenshot 
+## Screenshot
 ![Screeshot password](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-password.png)
 
 ![Screeshot encryption ok](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-encryption.png)
