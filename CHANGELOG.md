@@ -1,3 +1,5 @@
+## 0.4.1 - FIX: issue #12 - compatibility with atom > v1.14
+
 ## 0.4.0 - ADD: issue #6 - automatic de- and encrypt on open and save
 
 ## 0.3.1 - FIX issue #5 - error in binary_mode function definition
