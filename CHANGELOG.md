@@ -1,4 +1,6 @@
-## 0.4.1 - FIX: issue #12 - compatibility with atom > v1.14
+## 0.5.1 - FIX: issue #12 - compatibility with ansible <= v1.9.x
+
+## 0.5.0 - FIX: issue #11 - compatibility with atom > v1.14
 
 ## 0.4.0 - ADD: issue #6 - automatic de- and encrypt on open and save
 
