@@ -1,3 +1,5 @@
+## 0.6.0 - Removed python wrapper
+
 ## 0.5.1 - FIX: issue #12 - compatibility with ansible <= v1.9.x
 
 ## 0.5.0 - FIX: issue #11 - compatibility with atom > v1.14
