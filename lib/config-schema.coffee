@@ -4,7 +4,11 @@ module.exports =
       type: 'string'
       default: '/usr/local/bin/ansible-vault'
     vault_password_file_flag:
-      title: 'Use a global vault password file'
+      title: 'Use vault password file defined in ansible.cfg project'
+      type: 'boolean'
+      default: false
+    vault_password_file_forcing:
+      title: 'Force specific vault password file'
       type: 'boolean'
       default: false
     vault_password_file_path:
