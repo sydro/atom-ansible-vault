@@ -1,5 +1,11 @@
 # Atom ansible-vault package
 
+[![Build Status](https://travis-ci.org/sydro/atom-ansible-vault.svg?branch=master)](https://travis-ci.org/sydro/atom-ansible-vault)
+[![Installs!](https://img.shields.io/apm/dm/ansible-vault.svg?style=flat-square)](https://atom.io/packages/ansible-vault)
+[![Version!](https://img.shields.io/apm/v/ansible-vault.svg?style=flat-square)](https://atom.io/packages/ansible-vault)
+[![License](https://img.shields.io/apm/l/ansible-vault.svg?style=flat-square)](https://github.com/sydro/atom-ansible-vault/blob/master/LICENSE.md)
+
+
 Atom Package to decrypt and encrypt ansible-vault file.
 
 Press <kbd>ctrl-alt-0</kbd> to encrypt and decrypt file.
