@@ -1,7 +1,7 @@
 {
   "name": "ansible-vault",
   "main": "./lib/ansible-vault",
-  "version": "0.6.7",
+  "version": "0.6.8",
   "description": "Atom Package to decrypt and encrypt ansible-vault file.",
   "keywords": [
     "ansible",
