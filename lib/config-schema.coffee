@@ -8,7 +8,7 @@ module.exports =
       type: 'boolean'
       default: false
     vault_password_file_forcing:
-      title: 'Force specific vault password file'
+      title: 'Use specific vault password file ( NB: ignored if there is an ansible.cfg )'
       type: 'boolean'
       default: false
     vault_password_file_path:

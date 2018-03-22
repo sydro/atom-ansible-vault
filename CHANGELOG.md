@@ -1,3 +1,8 @@
+## 0.6.10 - Fix issue #28 - ansible >= 2.4 breaks ansible.cfg mode
+* Fix: ansible.cfg problem
+* Fix: disable auto de/encrypt flag was not possible
+* Fix: without auto de/encrypt flag force vault_password_file did work
+
 ## 0.6.0 - Removed python wrapper
 
 ## 0.5.1 - FIX: issue #12 - compatibility with ansible <= v1.9.x
