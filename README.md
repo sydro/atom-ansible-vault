@@ -45,13 +45,15 @@ If it isn't in that directory, it's necessary to set absolute path in settings t
 
   ```  
 
-* **Force specific vault password file:**
+* **Use specific vault password file (NB: ignored if there is an ansible.cfg):**
 
   ```
-  This option forces the package to use a specific vault password file
+  This option enables the package to use a specific vault password file
   for any de/encrytion actions.
 
   ```
+  **NB:** if there is an ansible.cfg, ansible-vault (>= 2.4) ignore --vault-password-file option.
+
 
 * **Vault password file path:**
 
