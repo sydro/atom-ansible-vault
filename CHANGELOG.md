@@ -1,3 +1,5 @@
+## 0.6.11 - Add reverse recursive research of ansible.cfg file
+
 ## 0.6.10 - Fix issue #28 - ansible >= 2.4 breaks ansible.cfg mode
 * Fix: ansible.cfg problem
 * Fix: disable auto de/encrypt flag was not possible
