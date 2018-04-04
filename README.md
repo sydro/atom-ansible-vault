@@ -4,7 +4,7 @@
 [![Installs!](https://img.shields.io/apm/dm/ansible-vault.svg?style=flat-square)](https://atom.io/packages/ansible-vault)
 [![Version!](https://img.shields.io/apm/v/ansible-vault.svg?style=flat-square)](https://atom.io/packages/ansible-vault)
 [![License](https://img.shields.io/apm/l/ansible-vault.svg?style=flat-square)](https://github.com/sydro/atom-ansible-vault/blob/master/LICENSE.md)
-
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/white_img.png)](https://www.buymeacoffee.com/sydro)
 
 Atom Package to decrypt and encrypt ansible-vault file.
 
@@ -22,6 +22,7 @@ If it isn't in that directory, it's necessary to set absolute path in settings t
 ![Screeshot settings](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-settings.png)
 
 * **ansible-vault binary path**:
+
   ```
   The absolute path of ansible-vault binary.
 
@@ -31,31 +32,31 @@ If it isn't in that directory, it's necessary to set absolute path in settings t
   ```
 
 * **Enable automatic de- and encrypt**:
+
   ```
   This option enables automatic de/encryt on opening of vault files
   ```
 
 * **Use vault password file defined in ansible.cfg project**:
+
   ```
   If there's ansible.cfg file in opened project, with this option package use it to define vault password file path.
 
   Es: (ansible.cfg)
   [defaults]
   vault_password_file=pass.txt
-
-  ```  
+  ```
 
 * **Use specific vault password file (NB: ignored if there is an ansible.cfg):**
 
   ```
   This option enables the package to use a specific vault password file
   for any de/encrytion actions.
-
   ```
+
   **NB:** if there is an ansible.cfg, ansible-vault (>= 2.4) ignore --vault-password-file option.
 
-
-* **Vault password file path:**
+- **Vault password file path:**
 
   ```
   The absolute path of vault password file. It is used when previous flag is checked.
@@ -63,8 +64,8 @@ If it isn't in that directory, it's necessary to set absolute path in settings t
 
 **NOTE**: to use vault password file, you must set ansible-vault binary path.
 
-
 ## Screenshot
+
 ![Screeshot password](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-password.png)
 
 ![Screeshot encryption ok](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-encryption.png)
