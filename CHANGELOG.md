@@ -1,3 +1,9 @@
+## 0.6.17 - Fixed #30: Security issue - disabled undo after encryption
+
+## 0.6.16 - Fixed #31: Spaces in path of vault file causes error
+
+## 0.6.15 - Fixed ansible_cfg variable error bug
+
 ## 0.6.11 - Add reverse recursive research of ansible.cfg file
 
 ## 0.6.10 - Fix issue #28 - ansible >= 2.4 breaks ansible.cfg mode
