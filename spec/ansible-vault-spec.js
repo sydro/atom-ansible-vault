@@ -43,7 +43,7 @@ describe('Atom Ansible Vault', () => {
     expect(AnsibleVault.config.vault_password_file_forcing.default).toBe(false)
     expect(AnsibleVault.config.vault_password_file_path.default).toBe('/tmp/pass.txt')
     expect(AnsibleVault.config.vault_automatic_de_and_encrypt.default).toBe(false)
-    expect(AnsibleVault.toggle).toBeDefined()
+    expect(AnsibleVault.toggleSelection).toBeDefined()
   })
 
   it('should visible the inputbox when toggled', () => {
