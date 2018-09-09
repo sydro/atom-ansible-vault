@@ -69,3 +69,7 @@ If it isn't in that directory, it's necessary to set absolute path in settings t
 ![Screeshot password](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-password.png)
 
 ![Screeshot encryption ok](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-encryption.png)
+
+## Contributors
+
+Kyle Williams @kyle-williams-1

@@ -1,3 +1,7 @@
+## 0.7.0  - Fixed #8: Selection based encrypt/decrypt
+* New algoritm for encrypt/decrypt
+* Fixed #8: Support for single encrypted variables
+
 ## 0.6.17 - Fixed #30: Security issue - disabled undo after encryption
 
 ## 0.6.16 - Fixed #31: Spaces in path of vault file causes error
