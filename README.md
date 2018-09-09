@@ -72,4 +72,4 @@ If it isn't in that directory, it's necessary to set absolute path in settings t
 
 ## Contributors
 
-Kyle Williams @kyle-williams-1
+[Kyle Williams @kyle-williams-1](https://github.com/kyle-williams-1)
