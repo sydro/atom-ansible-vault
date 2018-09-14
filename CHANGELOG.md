@@ -1,4 +1,6 @@
-## 0.7.0  - Fixed #8: Selection based encrypt/decrypt
+## 0.7.1 - Fixed #34: Automatic encrypt stopped working in 0.7.0
+
+## 0.7.0 - Fixed #8: Selection based encrypt/decrypt
 * New algoritm for encrypt/decrypt
 * Fixed #8: Support for single encrypted variables
 
