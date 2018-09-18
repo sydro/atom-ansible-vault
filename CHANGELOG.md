@@ -1,3 +1,5 @@
+## 0.7.2 - Fixed #35: Plugin doesn't detect ansible.cfg file
+
 ## 0.7.1 - Fixed #34: Automatic encrypt stopped working in 0.7.0
 
 ## 0.7.0 - Fixed #8: Selection based encrypt/decrypt
