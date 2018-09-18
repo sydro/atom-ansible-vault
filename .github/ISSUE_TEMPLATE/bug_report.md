@@ -18,8 +18,9 @@ Steps to reproduce the behavior:
 A clear and concise description of what you expected to happen.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. Ubuntu 18.04]
  - Atom version [e.g. 1.30]
+ - Ansible version [e.g 2.6.4]
+ - OS: [e.g. Ubuntu 18.04]
 
 **Additional context**
 Add any other context about the problem here.
