@@ -52,7 +52,7 @@ In user directory C:\Users\sydro i must have got those files:
 
 1. Configure "Ansible Vault absolute path" with this value **%HOMEPATH%\ansible-vault.bat**
 
-2. Copy file [ansible-vault.bat](https://raw.githubusercontent.com/sydro/atom-ansible-vault/master/assets/ansible-vault.bat)
+2. Copy file [ansible-vault.bat](https://raw.githubusercontent.com/sydro/atom-ansible-vault/windows-support/assets/ansible-vault.bat)
    in user homedirectory
 
 3. Test :D
