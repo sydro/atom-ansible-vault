@@ -17,6 +17,7 @@
   "dependencies": {
     "fs-plus": "^3.0.2",
     "ini": "^1.3.5",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "minimist": ">=0.2.1"
   }
 }
